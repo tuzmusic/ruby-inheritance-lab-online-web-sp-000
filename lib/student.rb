@@ -1,6 +1,6 @@
 class Student  < User
 
-  attr_reader @knowledge
+  # attr_reader @knowledge
 
   def initialize
     @knowledge = []
@@ -9,9 +9,9 @@ class Student  < User
   def learn
     Teacher.teach
   end
-  #
-  # def knowledge
-  #   @knowledge
-  # end
+
+  def knowledge
+    @knowledge
+  end
 
 end
