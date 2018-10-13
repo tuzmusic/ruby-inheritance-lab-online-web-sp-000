@@ -9,9 +9,9 @@ class Student  < User
   def learn
     Teacher.teach
   end
-
-  def knowledge
-    @knowledge
-  end
+  #
+  # def knowledge
+  #   @knowledge
+  # end
 
 end
