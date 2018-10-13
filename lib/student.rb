@@ -7,7 +7,7 @@ class Student  < User
   end
 
   def learn
-    Teacher.teach
+    Teacher.new.teach
   end
 
   def knowledge
